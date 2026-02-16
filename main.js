@@ -33,8 +33,9 @@ btnMood.addEventListener("click", () => {
   
   landing.style.display = "none";
 
-  
   moodForm.style.display = "block";
+  landing2.style.display = "block";
+
 });
 
 
