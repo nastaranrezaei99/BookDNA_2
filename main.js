@@ -77,7 +77,13 @@ back3.addEventListener("click" , () => {
 
 });
 
+button4.addEventListener("click" , () => {
+    landing5.style.display = "none";
+    form5.style.display = "block"
+    landing6.style.display = "block";
+    
 
+})
 
 
 back4.addEventListener("click" , () => {
