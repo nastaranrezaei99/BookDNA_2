@@ -18,6 +18,12 @@ const landing5 = document.getElementById("step4");
 const button3 = document.getElementById("button3");
 const back3 = document.getElementById("button42");
 
+const form5 = document.getElementById("f5que")
+const landing6 = document.getElementById("step5");
+const button4 = document.getElementById("button4");
+const back4 = document.getElementById("button52");
+
+
 
 btnMood.addEventListener("click", () => {
   
@@ -56,7 +62,7 @@ back2.addEventListener("click" , () => {
 
 });
 
-button2.addEventListener("click" , () => {
+button3.addEventListener("click" , () => {
     landing4.style.display = "none";
     form4.style.display = "block"
     landing5.style.display = "block";
@@ -64,9 +70,19 @@ button2.addEventListener("click" , () => {
 
 })
 
-back2.addEventListener("click" , () => {
+back3.addEventListener("click" , () => {
     landing5.style.display = "none";
     form3.style.display = "block";
     landing4.style.display = "block"; 
+
+});
+
+
+
+
+back4.addEventListener("click" , () => {
+    landing6.style.display = "none";
+    form4.style.display = "block";
+    landing5.style.display = "block"; 
 
 });
