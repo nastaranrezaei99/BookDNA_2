@@ -134,6 +134,7 @@ body{
 
 
 #button1{
+  color: aliceblue;
     margin-top: 6px;
     margin-right: 20px;
   padding: 6px 14px;
@@ -196,6 +197,7 @@ body{
   width: 220px; 
 }
 #button2{
+  color: aliceblue;
     margin-top: 20px;
     margin-right: 20px;
   padding: 6px 14px;
@@ -210,7 +212,7 @@ body{
 }
 
 #button22{
-
+  color: aliceblue;
     width: 150;
     height: 50;
     margin-top: 20px;
@@ -272,7 +274,7 @@ body{
   cursor: pointer;
   background-color: #79645a;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.61); 
-  width: 100px;
+  width: 70px;
     height: 40px;
     color: aliceblue;
 
