@@ -134,18 +134,36 @@ body{
 
 
 #button1{
-  color: aliceblue;
-    width: 100px;
-    height: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
   padding: 6px 14px;
   border-radius: 6px;
   border: 0;
   cursor: pointer;
   background-color: #79645a;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.61); 
-  margin-top: 20px;
+  width: 100px;
+    height: 30px;
+    color: aliceblue;
 
 }
+
+#button11{
+  color: aliceblue;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 25px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 0;
+  cursor: pointer;
+  background-color: #79645a;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.61); 
+
+}
+
+
 /* #dosto{
     width: 500px;
     height: 400px;
