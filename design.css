@@ -406,19 +406,24 @@ body{
   width: 220px; 
 }
 #button5{
-    margin-top: 20px;
-    margin-right: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
   padding: 6px 14px;
   border-radius: 6px;
   border: 0;
   cursor: pointer;
   background-color: #79645a;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.61); 
-  width: 100px;
-    height: 30px;
-    color: aliceblue;
-
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.61);
+  height: 30px;
+  color: aliceblue;
+  width: auto;
+  min-width: 120px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 #button52{
   color: aliceblue;
