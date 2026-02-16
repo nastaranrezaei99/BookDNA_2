@@ -13,6 +13,11 @@ const landing4 = document.getElementById("step3");
 const button2 = document.getElementById("button2");
 const back2 = document.getElementById("button32");
 
+const form4 = document.getElementById("f4que")
+const landing5 = document.getElementById("step4");
+const button3 = document.getElementById("button3");
+const back3 = document.getElementById("button42");
+
 
 btnMood.addEventListener("click", () => {
   
@@ -48,5 +53,20 @@ back2.addEventListener("click" , () => {
     landing4.style.display = "none";
     form2.style.display = "block";
     landing3.style.display = "block"; 
+
+});
+
+button2.addEventListener("click" , () => {
+    landing4.style.display = "none";
+    form4.style.display = "block"
+    landing5.style.display = "block";
+    
+
+})
+
+back2.addEventListener("click" , () => {
+    landing5.style.display = "none";
+    form3.style.display = "block";
+    landing4.style.display = "block"; 
 
 });
