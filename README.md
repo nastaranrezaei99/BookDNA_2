@@ -3,7 +3,7 @@
 A small front-end web app that recommends books based on a short quiz.
 
 ## Live Demo
-- https://nastaranrezaei99.github.io/BookDNA/
+- [https://nastaranrezaei99.github.io/BookDNA/](https://nastaranrezaei99.github.io/BookDNA_2/)
 
 ## Features
 - Quiz-based book suggestions
